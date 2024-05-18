@@ -1,0 +1,30 @@
+/* .card{
+    border: none;
+    width: 500px;
+    padding: 40px;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    background: #ccc
+} */
+
+
+.gradient-custom-2 {
+    background: #fccb90;
+    
+    background: -webkit-linear-gradient(to right, #8a715c, #b1906f, #d0ab82, #eac086);
+    background: linear-gradient(to right, #8a715c, #b1906f, #d0ab82, #eac086);
+     
+    }
+    
+    @media (min-width: 768px) {
+    .gradient-form {
+    height: 100vh !important;
+    }
+    }
+    @media (min-width: 769px) {
+    .gradient-custom-2 {
+    border-top-right-radius: .3rem;
+    border-bottom-right-radius: .3rem;
+    }
+    }
